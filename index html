@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="حاتم عبد العظيم - مطور برامج كامل (Full-Stack Developer) من الخرطوم، السودان، متخصص في تطوير مواقع وتطبيقات ويب مبتكرة.">
+    <meta name="keywords" content="حاتم عبد العظيم, مطور ويب, Full-Stack Developer, تصميم مواقع, تطوير تطبيقات, السودان">
+    <meta name="author" content="حاتم عبد العظيم">
+    <title>حاتم عبد العظيم - موقع شخصي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">حاتم عبد العظيم</div>
+        <ul class="nav-links">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#about">عني</a></li>
+            <li><a href="#services">الخدمات</a></li>
+            <li><a href="#portfolio">الأعمال</a></li>
+            <li><a href="#contact">تواصلوا معي</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="home" class="hero" data-aos="zoom-in">
+        <div class="hero-content">
+            <img src="https://i.postimg.cc/WDfz2wjv/IMG.png" alt="حاتم عبد العظيم">
+            <h1>حاتم عبد العظيم</h1>
+            <p class="bio">أنا حاتم عبد العظيم، مطور برامج كامل (Full-Stack Developer) شغوف بإنشاء مواقع وتطبيقات ويب مبتكرة. أعمل على تحسين تجربة المستخدم وتطوير حلول رقمية عالية الجودة من الخرطوم، السودان.</p>
+            <div class="info-bar">
+                <p><i class="fas fa-user"></i> <strong>الاسم:</strong> حاتم عبد العظيم</p>
+                <p><i class="fas fa-birthday-cake"></i> <strong>العمر:</strong> 22 سنة</p>
+                <p><i class="fas fa-globe"></i> <strong>الدولة:</strong> السودان</p>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>العنوان:</strong> الخرطوم</p>
+                <p><i class="fas fa-graduation-cap"></i> <strong>الدراسة:</strong> بكالوريوس في علوم الحاسوب</p>
+                <p><i class="fas fa-phone"></i> <strong>رقم الهاتف:</strong> 249960219135</p>
+                <p><i class="fab fa-telegram"></i> <strong>تليجرام:</strong> 249922676230</p>
+                <p><i class="fas fa-envelope"></i> <strong>البريد الإلكتروني:</strong> <a href="mailto:Xsss9533@gmail.com">Xsss9533@gmail.com</a></p>
+            </div>
+            <a href="#contact" class="btn">تواصلوا معي</a>
+        </div>
+    </section>
+
+
+    <section id="about" class="section" data-aos="fade-up">
+        <h2>معلوماتي</h2>
+        <div class="personal-info-content" data-aos="zoom-in">
+            <div class="info-item">
+                <i class="fas fa-user"></i>
+                <p><strong>الاسم:</strong> حاتم عبد العظيم</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-birthday-cake"></i>
+                <p><strong>العمر:</strong> 22 سنة</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-globe"></i>
+                <p><strong>الدولة:</strong> السودان</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p><strong>العنوان:</strong> الخرطوم</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-graduation-cap"></i>
+                <p><strong>الدراسة:</strong> بكالوريوس في علوم الحاسوب</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <p><strong>رقم الهاتف:</strong> 249960219135</p>
+            </div>
+            <div class="info-item">
+                <i class="fab fa-telegram"></i>
+                <p><strong>تليجرام:</strong> 249922676230</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <p><strong>البريد الإلكتروني:</strong> <a href="mailto:Xsss9533@gmail.com">Xsss9533@gmail.com</a></p>
+            </div>
+        </div>
+
+
+        <h2>المهارات</h2>
+        <div class="skills-content" data-aos="zoom-in">
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="progress-circle">
+                        <svg>
+                            <circle class="circle-bg" cx="60" cy="60" r="50"></circle>
+                            <circle class="circle-fg" cx="60" cy="60" r="50" style="stroke-dasharray: 314; stroke-dashoffset: 31.4;"></circle>
+                        </svg>
+                        <div class="percentage">90%</div>
+                    </div>
+                    <p>HTML</p>
+                </div>
+                <div class="skill-item">
+                    <div class="progress-circle">
+                        <svg>
+                            <circle class="circle-bg" cx="60" cy="60" r="50"></circle>
+                            <circle class="circle-fg" cx="60" cy="60" r="50" style="stroke-dasharray: 314; stroke-dashoffset: 47.1;"></circle>
+                        </svg>
+                        <div class="percentage">85%</div>
+                    </div>
+                    <p>CSS</p>
+                </div>
+                <div class="skill-item">
+                    <div class="progress-circle">
+                        <svg>
+                            <circle class="circle-bg" cx="60" cy="60" r="50"></circle>
+                            <circle class="circle-fg" cx="60" cy="60" r="50" style="stroke-dasharray: 314; stroke-dashoffset: 62.8;"></circle>
+                        </svg>
+                        <div class="percentage">80%</div>
+                    </div>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-item">
+                    <div class="progress-circle">
+                        <svg>
+                            <circle class="circle-bg" cx="60" cy="60" r="50"></circle>
+                            <circle class="circle-fg" cx="60" cy="60" r="50" style="stroke-dasharray: 314; stroke-dashoffset: 78.5;"></circle>
+                        </svg>
+                        <div class="percentage">75%</div>
+                    </div>
+                    <p>React</p>
+                </div>
+                <div class="skill-item">
+                    <div class="progress-circle">
+                        <svg>
+                            <circle class="circle-bg" cx="60" cy="60" r="50"></circle>
+                            <circle class="circle-fg" cx="60" cy="60" r="50" style="stroke-dasharray: 314; stroke-dashoffset: 94.2;"></circle>
+                        </svg>
+                        <div class="percentage">70%</div>
+                    </div>
+                    <p>UI/UX Design</p>
+                </div>
+                <div class="skill-item">
+                    <div class="progress-circle">
+                        <svg>
+                            <circle class="circle-bg" cx="60" cy="60" r="50"></circle>
+                            <circle class="circle-fg" cx="60" cy="60" r="50" style="stroke-dasharray: 314; stroke-dashoffset: 110;"></circle>
+                        </svg>
+                        <div class="percentage">65%</div>
+                    </div>
+                    <p>Node.js</p>
+                </div>
+                <div class="skill-item">
+                    <div class="progress-circle">
+                        <svg>
+                            <circle class="circle-bg" cx="60" cy="60" r="50"></circle>
+                            <circle class="circle-fg" cx="60" cy="60" r="50" style="stroke-dasharray: 314; stroke-dashoffset: 125.6;"></circle>
+                        </svg>
+                        <div class="percentage">60%</div>
+                    </div>
+                    <p>Python</p>
+                </div>
+                <div class="skill-item">
+                    <div class="progress-circle">
+                        <svg>
+                            <circle class="circle-bg" cx="60" cy="60" r="50"></circle>
+                            <circle class="circle-fg" cx="60" cy="60" r="50" style="stroke-dasharray: 314; stroke-dashoffset: 141.3;"></circle>
+                        </svg>
+                        <div class="percentage">55%</div>
+                    </div>
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill-item">
+                    <div class="progress-circle">
+                        <svg>
+                            <circle class="circle-bg" cx="60" cy="60" r="50"></circle>
+                            <circle class="circle-fg" cx="60" cy="60" r="50" style="stroke-dasharray: 314; stroke-dashoffset: 157;"></circle>
+                        </svg>
+                        <div class="percentage">50%</div>
+                    </div>
+                    <p>TypeScript</p>
+                </div>
+            </div>
+        </div>
+
+
+        <h2>اللغات</h2>
+        <div class="languages-content" data-aos="zoom-in">
+            <p><i class="fas fa-language"></i> <strong>العربية:</strong> اللغة الأم</p>
+            <p><i class="fas fa-language"></i> <strong>الإنجليزية:</strong> مستوى متقدم</p>
+            <p><i class="fas fa-language"></i> <strong>الفرنسية:</strong> مستوى متوسط</p>
+            <p><i class="fas fa-language"></i> <strong>الإسبانية:</strong> مستوى مبتدئ</p>
+            <p><i class="fas fa-language"></i> <strong>الألمانية:</strong> مستوى متوسط</p>
+        </div>
+    </section>
+
+
+    <section id="services" class="section" data-aos="fade-up">
+        <h2>الخدمات</h2>
+        <div class="services-grid">
+            <div class="service-card" data-aos="zoom-in">
+                <i class="fas fa-paint-brush"></i>
+                <h3>تصميم مواقع</h3>
+                <p>تصميم مواقع ويب جذابة ومتجاوبة تلبي احتياجات العملاء.</p>
+            </div>
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                <i class="fas fa-code"></i>
+                <h3>تطوير ويب</h3>
+                <p>تطوير مواقع ديناميكية بأحدث التقنيات.</p>
+            </div>
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                <i class="fas fa-search"></i>
+                <h3>تحسين SEO</h3>
+                <p>تحسين محركات البحث لزيادة الظهور.</p>
+            </div>
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                <i class="fas fa-tools"></i>
+                <h3>صيانة مواقع</h3>
+                <p>صيانة وتحديث المواقع لضمان الأداء المستمر.</p>
+            </div>
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>تطوير تطبيقات جوال</h3>
+                <p>تصميم وتطوير تطبيقات جوال متجاوبة وسهلة الاستخدام.</p>
+            </div>
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="500">
+                <i class="fas fa-headset"></i>
+                <h3>استشارات تقنية</h3>
+                <p>تقديم استشارات لتحسين البنية التحتية التقنية.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio" class="section" data-aos="fade-up">
+        <h2>الأعمال والمشاريع</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-card" data-aos="zoom-in">
+                <img src="https://images.unsplash.com/photo-1507238691740-9038a40d22db?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="مشروع 1">
+                <h3>مشروع 1</h3>
+                <p>تصميم وتطوير موقع ويب لشركة تجارية.</p>
+                <a href="#" class="btn">عرض التفاصيل</a>
+            </div>
+            <div class="portfolio-card" data-aos="zoom-in" data-aos-delay="100">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="مشروع 2">
+                <h3>مشروع 2</h3>
+                <p>تطبيق ويب ديناميكي لإدارة المحتوى.</p>
+                <a href="#" class="btn">عرض التفاصيل</a>
+            </div>
+            <div class="portfolio-card" data-aos="zoom-in" data-aos-delay="200">
+                <img src="https://images.unsplash.com/photo-1516321310764-8d8c9461b6a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="مشروع 3">
+                <h3>مشروع 3</h3>
+                <p>موقع إلكتروني لعرض المنتجات.</p>
+                <a href="#" class="btn">عرض التفاصيل</a>
+            </div>
+            <div class="portfolio-card" data-aos="zoom-in" data-aos-delay="300">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="مشروع 4">
+                <h3>مشروع 4</h3>
+                <p>تطبيق ويب لإدارة المشاريع البرمجية.</p>
+                <a href="#" class="btn">عرض التفاصيل</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="section" data-aos="fade-up">
+        <h2>تواصلوا معي</h2>
+        <form class="contact-form" data-aos="zoom-in">
+            <input type="text" placeholder="الاسم الكامل" required>
+            <input type="email" placeholder="البريد الإلكتروني" required>
+            <textarea placeholder="رسالتك هنا..." required></textarea>
+            <button type="submit" class="btn">إرسال الرسالة</button>
+        </form>
+    </section>
+
+
+    <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+
+    <footer class="footer">
+        <p>© 2025 حاتم عبد العظيم. جميع الحقوق محفوظة.</p>
+        <div class="social-links">
+            <a href="https://t.me/+249922676230" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="mailto:Xsss9533@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" defer></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
