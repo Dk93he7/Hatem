@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         once: true
     });
 
-    const backToTop = document.querySelector('.back-to-top');
+    const backToTop = document.querySelector('.rotate');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 300) {
             backToTop.classList.add('visible');
@@ -18,5 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         alert('تم إرسال الرسالة بنجاح!');
         form.reset();
+    });
+
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    darkModeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        darkModeToggle.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
     });
 });
