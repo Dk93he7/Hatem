@@ -6,15 +6,14 @@
 
 body {
     font-family: 'Cairo', sans-serif;
-    background: linear-gradient(135deg, #f4f4f4 0%, #e0e0e0 100%);
-    color: #333;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
     line-height: 1.6;
-    transition: background 0.3s, color 0.3s;
 }
 
 .navbar {
-    background-color: #2c3e50;
-    padding: 15px 30px;
+    background-color: #2c2c2c;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,58 +21,60 @@ body {
     width: 100%;
     top: 0;
     z-index: 1000;
+    border-bottom: 2px solid #f4a261;
 }
 
-.navbar .logo {
-    color: white;
+.circle-logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e0e0e0;
     font-size: 24px;
     font-weight: 700;
+    border: 2px solid #f4a261;
 }
 
-.navbar .nav-links {
+.nav-links {
     list-style: none;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-right: 20px;
 }
 
-.navbar .nav-links li {
-    margin-left: 20px;
+.nav-links li {
+    text-align: center;
 }
 
-.navbar .nav-links a {
-    color: white;
+.nav-links a {
+    color: #e0e0e0;
     text-decoration: none;
     font-size: 18px;
+    padding: 10px;
+    display: block;
     transition: color 0.3s;
 }
 
-.navbar .nav-links a:hover {
-    color: #3498db;
-}
-
-.dark-mode-btn {
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    color: white;
-    transition: transform 0.3s;
-}
-
-.dark-mode-btn:hover {
-    transform: scale(1.2);
+.nav-links a:hover {
+    color: #f4a261;
 }
 
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: #e0e0e0;
     padding: 20px;
+    margin-top: 60px;
 }
 
 .hero-content img {
@@ -81,7 +82,7 @@ body {
     height: 150px;
     border-radius: 50%;
     margin-bottom: 20px;
-    border: 5px solid #3498db;
+    border: 5px solid #f4a261;
 }
 
 .hero-content h1 {
@@ -96,7 +97,7 @@ body {
 }
 
 .info-bar {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(44, 44, 44, 0.8);
     padding: 20px;
     border-radius: 10px;
     display: grid;
@@ -111,21 +112,21 @@ body {
 
 .info-bar i {
     margin-right: 10px;
-    color: #3498db;
+    color: #f4a261;
 }
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #3498db;
-    color: white;
+    background-color: #f4a261;
+    color: #1a1a1a;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 .btn:hover {
-    background-color: #2980b9;
+    background-color: #e07a5f;
 }
 
 .section {
@@ -136,7 +137,7 @@ body {
 .section h2 {
     font-size: 36px;
     margin-bottom: 40px;
-    color: #2c3e50;
+    color: #e0e0e0;
 }
 
 .personal-info-content {
@@ -148,14 +149,14 @@ body {
 }
 
 .info-item {
-    background-color: white;
+    background-color: #2c2c2c;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
 }
 
 .info-item i {
-    color: #3498db;
+    color: #f4a261;
     margin-bottom: 10px;
 }
 
@@ -185,13 +186,13 @@ body {
 
 .progress-circle .circle-bg {
     fill: none;
-    stroke: #e0e0e0;
+    stroke: #444;
     stroke-width: 10;
 }
 
 .progress-circle .circle-fg {
     fill: none;
-    stroke: #3498db;
+    stroke: #f4a261;
     stroke-width: 10;
     stroke-linecap: round;
     transform: rotate(-90deg);
@@ -205,13 +206,13 @@ body {
     transform: translate(-50%, -50%);
     font-size: 20px;
     font-weight: 700;
-    color: #2c3e50;
+    color: #e0e0e0;
 }
 
 .skill-item p {
     margin-top: 10px;
     font-size: 16px;
-    color: #2c3e50;
+    color: #e0e0e0;
 }
 
 .languages-content p {
@@ -221,7 +222,7 @@ body {
 
 .languages-content i {
     margin-right: 10px;
-    color: #3498db;
+    color: #f4a261;
 }
 
 .services-grid {
@@ -233,10 +234,10 @@ body {
 }
 
 .service-card {
-    background-color: white;
+    background-color: #2c2c2c;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
     text-align: center;
     transition: transform 0.3s;
 }
@@ -247,19 +248,19 @@ body {
 
 .service-card i {
     font-size: 40px;
-    color: #3498db;
+    color: #f4a261;
     margin-bottom: 20px;
 }
 
 .service-card h3 {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #2c3e50;
+    color: #e0e0e0;
 }
 
 .service-card p {
     font-size: 16px;
-    color: #666;
+    color: #aaa;
 }
 
 .portfolio-grid {
@@ -271,9 +272,9 @@ body {
 }
 
 .portfolio-card {
-    background-color: white;
+    background-color: #2c2c2c;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
     overflow: hidden;
     text-align: center;
 }
@@ -287,12 +288,12 @@ body {
 .portfolio-card h3 {
     font-size: 20px;
     margin: 15px 0;
-    color: #2c3e50;
+    color: #e0e0e0;
 }
 
 .portfolio-card p {
     font-size: 16px;
-    color: #666;
+    color: #aaa;
     margin-bottom: 15px;
 }
 
@@ -311,10 +312,12 @@ body {
 .contact-form input,
 .contact-form textarea {
     padding: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #444;
     border-radius: 5px;
     font-size: 16px;
     font-family: 'Cairo', sans-serif;
+    background-color: #2c2c2c;
+    color: #e0e0e0;
 }
 
 .contact-form textarea {
@@ -324,8 +327,8 @@ body {
 
 .contact-form button {
     padding: 15px;
-    background-color: #3498db;
-    color: white;
+    background-color: #f4a261;
+    color: #1a1a1a;
     border: none;
     border-radius: 5px;
     font-size: 18px;
@@ -334,15 +337,15 @@ body {
 }
 
 .contact-form button:hover {
-    background-color: #2980b9;
+    background-color: #e07a5f;
 }
 
-.rotate {
+.back-to-top {
     position: fixed;
     bottom: 20px;
     left: 20px;
-    background-color: #3498db;
-    color: white;
+    background-color: #f4a261;
+    color: #1a1a1a;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -354,13 +357,13 @@ body {
     transition: opacity 0.3s;
 }
 
-.rotate.visible {
+.back-to-top.visible {
     opacity: 1;
 }
 
 .footer {
-    background-color: #2c3e50;
-    color: white;
+    background-color: #2c2c2c;
+    color: #e0e0e0;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
@@ -370,42 +373,9 @@ body {
     margin-bottom: 10px;
 }
 
-body.dark-mode {
-    background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 100%);
-    color: #e0e0e0;
-}
-
-.dark-mode .navbar {
-    background-color: #1a1a1a;
-}
-
-.dark-mode .section h2,
-.dark-mode .skill-item p,
-.dark-mode .portfolio-card h3 {
-    color: #e0e0e0;
-}
-
-.dark-mode .info-item,
-.dark-mode .service-card,
-.dark-mode .portfolio-card {
-    background-color: #2c2c2c;
-    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
-}
-
-.dark-mode .footer {
-    background-color: #1a1a1a;
-}
-
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .navbar .nav-links {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
+    .nav-links {
+        grid-template-columns: 1fr;
     }
 
     .hero-content h1 {
@@ -419,4 +389,4 @@ body.dark-mode {
     .section h2 {
         font-size: 28px;
     }
-                         }
+    }
